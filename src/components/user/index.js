@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from '../../../styles/Home.module.css'
+import styles from '../user/styles.module.css';
 
 export default function User(){
     return(      
         <div className={styles.user}>
-            <span className={styles.avatar}>
+            <span>
                 <img src="https://avatars.githubusercontent.com/u/40044852?s=400&u=99e63fe119e4c75b29e6b13d7f043274dd6b06dd&v=4" className={styles.img}></img>
             </span>
             <div>

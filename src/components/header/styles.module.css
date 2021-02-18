@@ -1,0 +1,69 @@
+.header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+    display: block;
+    background-color: transparent;
+}
+
+.headerInner{
+    height: 100%;
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 0 20px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+    margin: 0px;
+}
+  
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 15px;
+}
+  
+.navigation a:last-child{
+    padding-right: 0px;
+}
+  
+.nameLogo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.nameLogo h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 200;
+}
+  
+.nameLogo span{
+    font-weight: 600;
+    color: #fd5c54;
+}
+
+.navigation li{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.block{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    float: center;
+    margin: 0 0 0 40%;
+    height: 100%;
+    width: 100px;
+    background-color: black;
+}
+  
