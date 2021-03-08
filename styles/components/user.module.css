@@ -1,0 +1,27 @@
+.user{
+    text-align: center;
+    align-items: center;
+    font-size: 14px;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translate(-0px, -120px);
+    z-index: 10;
+  }
+  
+  .name{
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fd5c54;
+  }
+  
+  .img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+  }
+  

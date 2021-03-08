@@ -1,5 +1,5 @@
 import KeyboardArrowDown from '@material-ui/icons/KeyboardArrowDown';
-import styles from '../downButton/styles.module.css';
+import styles from '../../styles/components/downButton.module.css';
 
 export default function DownButton(){
     return(

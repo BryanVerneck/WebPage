@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head'
 import User from '../src/components/user';
 import styles from '../styles/Home.module.css';
-import Header from '../src/components/header';
-import DownButton from '../src/components/downButton';
+import Header from '../src/components/Header';
+import DownButton from '../src/components/DownButton';
 
 export default function App() {
   return (
