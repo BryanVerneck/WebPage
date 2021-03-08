@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head'
-import User from '../src/components/user';
+import User from '../src/components/User';
 import styles from '../styles/Home.module.css';
 import Header from '../src/components/Header';
 import DownButton from '../src/components/DownButton';

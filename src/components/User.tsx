@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../styles/components/user.module.css';
+import styles from '../../styles/components/User.module.css';
 
 export default function User(){
     return(      
