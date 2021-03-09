@@ -31,11 +31,13 @@
     float: left;
     padding: 0px 15px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .navigation a:hover{
-    background-color:#fd5c54;
-    transition: 0.4s;
+    background-color: var(--secondary);
+    transition: 0.2s;
+    color: var(--black);
 }
   
 .nameLogo{
@@ -54,7 +56,7 @@
   
 .nameLogo span{
     font-weight: 600;
-    color: #fd5c54;
+    color: var(--secondary);
 }
 
 .navigation li{
@@ -70,6 +72,6 @@
     margin: 0 0 0 40%;
     height: 100%;
     width: 100px;
-    background-color: black;
+    background-color: var(--black);
 }
   
