@@ -12,11 +12,15 @@ export default function App() {
         <title>Inicio | Bryan Verneck</title>
       </Head>
       <section className={styles.section}>
-        <Header></Header>
+        <Header 
+          repoLink={"https://github.com/BryanVerneck?tab=repositories"}
+          contactLink={"https://github.com/BryanVerneck?tab=repositories"}
+          ></Header>
         <User></User>
         <DownButton></DownButton>
       </section>
-      <div className={styles.section} style={{backgroundColor: "#232424"}}></div>
+      <section className={styles.section} style={{backgroundColor: "#232424"}}></section>
+      <section className={styles.section}></section>
     </div>
   )
 }

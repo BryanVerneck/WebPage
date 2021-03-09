@@ -2,9 +2,19 @@ import KeyboardArrowDown from '@material-ui/icons/KeyboardArrowDown';
 import styles from '../../styles/components/DownButton.module.css';
 
 export default function DownButton(){
+  function handleScroll() {
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  }
+
     return(
         <div className={styles.icon}>
-          <button><KeyboardArrowDown style={{ fontSize: 40 }}/></button>
+            <button type="button" onClick={handleScroll}>
+              <KeyboardArrowDown style={{ fontSize: 40, color: "white" }}/>
+            </button>
         </div>
     )
 }

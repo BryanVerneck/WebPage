@@ -11,4 +11,9 @@
 .icon button {
     background-color: transparent;
     border-width: 0px;
+    transition: 0.4s;
+}
+
+.icon button:hover{
+    transform: scale(1.4);
 }
