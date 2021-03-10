@@ -9,8 +9,8 @@ export default function Header({ repoLink, contactLink }){
                     <h1>Bryan <span>Verneck</span></h1>
                 </div >
                 <ul className={styles.navigation}>
-                    <a href={contactLink} target="_blank"><li>Contact</li></a>
-                    <a href={repoLink} target="_blank"><li>Repositories</li></a>
+                    <a href={contactLink} target="_blank"><li>E-mail</li></a>
+                    <a href={repoLink} target="_blank"><li>GitHub</li></a>
                 </ul>
             </div>
         </div>

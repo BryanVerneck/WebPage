@@ -14,7 +14,7 @@ export default function App() {
       </Head>
       <Header 
           repoLink={"https://github.com/BryanVerneck?tab=repositories"}
-          contactLink={"https://github.com/BryanVerneck?tab=repositories"}
+          contactLink={"mailto:bryanverneck@gmail.com?subject=Questions"}
           ></Header>
       <section className={styles.section}>
         <User></User>
