@@ -21,7 +21,7 @@ export default function App() {
         <DownButton></DownButton>
       </section>
       <section className={styles.middleSection}>
-        {/* <AboutMe/> */}
+        <AboutMe/>
       </section>
     </div>
   )
